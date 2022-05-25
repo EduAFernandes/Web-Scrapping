@@ -3,6 +3,7 @@ import requests
 import csv
 import re
 
+# in order to iterate through all of the pages we must:
 complete_url = []
 nations_id_list = []
 urlfull_list = []
