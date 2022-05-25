@@ -15,7 +15,8 @@ options.add_argument('--headless')
 navegador = webdriver.Chrome(options=options)
 
 url ='https://www.fpcanoagem.pt/comunidade/clubes'
-#open selenium
+
+# get selenium to open the website and select and store the individual info to iterate through pages later
 PATH = "C:/Python/Python310/chromedriver.exe"
 navegador = webdriver.Chrome(PATH)
 navegador.get(url)
